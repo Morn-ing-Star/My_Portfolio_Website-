@@ -1,0 +1,220 @@
+container w-[1230px] mx-auto
+flex-col items-center space-y-10
+
+<div id="" class=" tab-container border-[2px] border-gray-950 rounded-xl w-[620px] h-[440px]">
+                    <div class="tab-box">
+                        <button class="tab_btn active">About</button>
+                        <button class="tab_btn">Education</button>
+                        <button class="tab_btn">Experience</button> 
+                        <button class="tab_btn">Skills</button>
+                        <div class="line"></div>
+                    </div>
+                    <div class="content_box">
+                        <div class="content active">
+                            <h2>About Me</h2>
+                            <p>1Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore quam saepe laudantium
+                                provident laboriosam inventore, fugiat dolor exercitationem quod.</p>
+                        </div>
+
+                        <div class="content">
+                            <h2>Education</h2>
+                            <p>2Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore quam saepe laudantium
+                                provident laboriosam inventore, fugiat dolor exercitationem quod.</p>
+                        </div>
+
+                        <div class="content">
+                            <h2>Experience</h2>
+                            <p>3Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore quam saepe laudantium
+                                provident laboriosam inventore, fugiat dolor exercitationem quod.</p>
+                        </div>
+
+                        <div class="content">
+                            <h2>Skills</h2>
+                            <p>4Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore quam saepe laudantium
+                                provident laboriosam inventore, fugiat dolor exercitationem quod.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <section class="mt-[150px]">
+        <div class="container w-[1100px] mx-auto ">
+            <div class="flex flex-col items-center space-y-8">
+                <div><h1 class="text-3xl font-semibold ">My Projects</h1></div>
+                <div class="flex flex-wrap p-7 gap-5 justify-between ">
+                    <div class="w-[310px] h-[345px] border-[2px] border-gray-950">
+                    </div>
+                    <div class="w-[310px] h-[345px] border-[2px] border-gray-950">
+                    </div>
+                    <div class="w-[310px] h-[345px] border-[2px] border-gray-950">
+                    </div>
+                    <div class="w-[310px] h-[345px] border-[2px] border-gray-950">
+                    </div>
+                    <div class="w-[310px] h-[345px] border-[2px] border-gray-950">
+                    </div>
+                    <div class="w-[310px] h-[345px] border-[2px] border-gray-950">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-[100px] mb-[100px]">
+        <div class="container w-[1100px] mx-auto ">
+            <div class="flex flex-col items-center space-y-8">
+                <div><h1 class="text-3xl font-semibold ">My Certificates</h1></div>
+                <div class="flex flex-wrap p-7 gap-5 justify-between ">
+                    <div class="w-[310px] h-[250px] border-[2px] border-gray-950">
+                    </div>
+                    <div class="w-[310px] h-[250px] border-[2px] border-gray-950">
+                    </div>
+                    <div class="w-[310px] h-[250px] border-[2px] border-gray-950">
+                    </div>
+                    <div class="w-[310px] h-[250px] border-[2px] border-gray-950">
+                    </div>
+                    <div class="w-[310px] h-[250px] border-[2px] border-gray-950">
+                    </div>
+                    <div class="w-[310px] h-[250px] border-[2px] border-gray-950">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- <div class="mx-auto max-w-[1230px] container">
+            <div id="containing-section" class="flex justify-between items-center p-2">
+                <div id="Logo" class="border-[2px] border-gray-950 rounded-full w-12 h-12">
+                    <img class="rounded-full"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK0Kp56dssdoI6cTylRAMUMsGYVOpdW_Hy0g&s"
+                        alt="">
+                </div>
+                <div id="nav-link-bar" class="bg-white px-16 py-5 rounded-lg">
+                    <div id="nav-links">
+                        <ul class="flex space-x-8 font-bold">
+                            <li><a class="hover:text-red-600 transition-colors duration-300 ease-in-out"
+                                    href="#about">About</a></li>
+                            <li><a class="hover:text-red-600 transition-colors duration-300 ease-in-out"
+                                    href="#project">Project</a></li>
+                            <li><a class="hover:text-red-600 transition-colors duration-300 ease-in-out"
+                                    href="#Certificates">Certificates</a></li>
+                            <li><a class="hover:text-red-600 transition-colors duration-300 ease-in-out" href="https://github.com/Morn-ing-Star"><i
+                                        class="fa-brands fa-github fa-lg"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="contact-button" class="">
+                    <a id="secondary" class="font-[600]" href="#">Contact Me <i class="fa-phone fa-solid"></i></a>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
+popup
+
+
+
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Example</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="/main_style.css">
+    <style>
+        .hide-scrollbar {
+            overflow-x: scroll;
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none; /* WebKit */
+        }
+    </style>
+</head>
+<body>
+    <button id="popupButton" class="bg-blue-500 px-4 py-2 rounded text-white">Show Popup</button>
+
+    <div id="popup" class="fixed inset-0 flex justify-center items-center hidden bg-gray-800 bg-opacity-50">
+        
+        <div class="bg-white rounded w-[1250px] h-[700px] overflow-scroll hide-scrollbar">
+            <div class="flex justify-between items-center p-8">
+                <div class="max-sm:hidden">
+                    <h2 class="font-semibold text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                </div>
+                <div>
+                    <button id="closeButton" class="rounded-full"><svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ff0000" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></svg></button>
+                </div>
+            </div>
+
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        const popupButton = document.getElementById('popupButton');
+        const popup = document.getElementById('popup');
+        const closeButton = document.getElementById('closeButton');
+
+        popupButton.addEventListener('click', () => {
+            popup.classList.remove('hidden');
+        });
+
+        closeButton.addEventListener('click', () => {
+            popup.classList.add('hidden');
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/b531de0342.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+<!-- <button class="border-[2px] border-gray-950 bg-white hover:bg-black px-4 py-2 popup-button rounded-full text-black hover:text-white duration-300 ease-in-out">View Project</button> -->
+
+<!-- <div class="fixed inset-0 flex justify-center items-center hidden bg-gray-800 bg-opacity-50 popup-container">
+  <div class="bg-white p-4 popup-content sm:p-8 rounded w-full max-w-[1250px] h-full max-h-[700px] overflow-scroll hide-scrollbar">
+      <div class="flex sm:flex-row flex-col justify-between items-start sm:items-center">
+          <div class="sm:block w-full sm:w-auto">
+              <h2 class="max-sm:hidden font-semibold text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+          </div>
+          <div class="mt-4 sm:mt-0">
+              <button class="popup-close-button rounded-full">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512">
+                      <path fill="#ff0000" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/>
+                  </svg>
+              </button>
+          </div>
+      </div>
+      <div class="flex flex-col items-center space-y-5 mx-auto mt-4 sm:mt-8 container">
+          <div class="border-[2px] border-gray-950 w-full max-w-[900px] h-[200px] sm:h-[400px] md:h-[500px]">
+              <iframe class="w-full h-full" src="https://www.youtube.com/embed/gopWuTx6vp8?si=kITdnNu4gPP-QbDl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="space-x-3 sm:space-y-7">
+            <a href="#"><button class="bg-red-600 hover:bg-red-500 mt-5 px-4 py-2 rounded-full text-white duration-300 ease-in-out">Download from Github</button></a>
+            <a href="#"><button class="bg-red-600 hover:bg-red-500 mt-5 px-4 py-2 rounded-full text-white duration-300 ease-in-out">View Project Directly</button></a>
+          </div>
+      </div>
+  </div>
+</div> -->
